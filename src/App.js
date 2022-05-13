@@ -1,7 +1,10 @@
+import Todolists from './components/todolists';
 function App() {
   return (
-    <div className='App'>
-      <h1>Hello world</h1>
+    <div className='container py-16'>
+      <div className='max-w-2xl mx-auto'>
+        <Todolists />
+      </div>
     </div>
   );
 }
